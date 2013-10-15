@@ -1,0 +1,12 @@
+Super C Quiz v1.0 INSTALL
+=========================
+
+Building can be done by typing make from the bash shell while in the directory of the makefile.
+
+To install the program, type make install from the bash shell while in the directory of the makefile.
+
+To run the utility chdir into the folder dist/Debug/GNU-Linux-x86 and then run ./supercquiz
+
+The utility can be run headless, i.e without prompts to read the output into a gui application.
+
+Command line argument format (spaces in between): <quizname(string)> <question(number)> <answer(number)> <norepeat(must be 'N')>
